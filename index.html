@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Telek Sistemas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./qualquercoisa.css">
+
+  <script src="https://kit.fontawesome.com/4dad2c92c7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="demo-page">
+    <div class="demo-page-navigation">
+      <nav>
+        <ul>
+          <li>
+            <a href="#atendimento">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-tool">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+              Atendimento</a>
+          </li>
+          <li>
+            <a href="#relatorio">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-layers">
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+              Relatórios</a>
+          </li>
+          <li>
+            <a href="#inatividade">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-align-justify">
+                <line x1="21" y1="10" x2="3" y2="10" />
+                <line x1="21" y1="6" x2="3" y2="6" />
+                <line x1="21" y1="14" x2="3" y2="14" />
+                <line x1="21" y1="18" x2="3" y2="18" />
+              </svg>
+              Inatividade</a>
+          </li>
+          <li>
+            <a href="#tratativa-de-erro">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-check-square">
+                <polyline points="9 11 12 14 22 4" />
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+              </svg>
+              Tratativa de Erro</a>
+          </li>
+          <li>
+            <a href="#pesquisa-de-satisfacao">
+              <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg)" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="feather feather-columns">
+                <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18" />
+              </svg>
+              Pesquisa de Satisfação</a>
+          </li>
+
+          <!--Menus-->
+          <li>
+            <a href="#menus">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-feather">
+                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z" />
+                <line x1="16" y1="8" x2="2" y2="22" />
+                <line x1="17.5" y1="15" x2="9" y2="15" />
+              </svg>
+              Menus</a>
+          </li>
+          <!-- <li>
+            <a href="#limite-de-caracteres">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-calendar">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+              </svg>
+              Limite de Caracteres</a>
+          </li>-->
+
+
+          <!--<li>
+            <a href="#finalizacao">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-server">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                <line x1="6" y1="6" x2="6.01" y2="6" />
+                <line x1="6" y1="18" x2="6.01" y2="18" />
+              </svg>
+              Finalização</a>
+          </li>-->
+
+          <!--Tipos de linguagem-->
+          <li>
+            <a href="#tipos-de-linguagem">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-power">
+                <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
+                <line x1="12" y1="2" x2="12" y2="12" />
+              </svg>
+              Tipos de Linguagem</a>
+          </li>
+
+          <!-- lgpd -->
+          <li>
+            <a href="#lgpd">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-sliders">
+                <line x1="4" y1="21" x2="4" y2="14" />
+                <line x1="4" y1="10" x2="4" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12" y2="3" />
+                <line x1="20" y1="21" x2="20" y2="16" />
+                <line x1="20" y1="12" x2="20" y2="3" />
+                <line x1="1" y1="14" x2="7" y2="14" />
+                <line x1="9" y1="8" x2="15" y2="8" />
+                <line x1="17" y1="16" x2="23" y2="16" />
+              </svg>
+              LGPD</a>
+          </li>
+
+          <!-- Api-->
+          <li>
+            <a href="#integracao">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-github">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              Integração</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+
+
+    <main class="demo-page-content">
+      <form
+        action="https://script.google.com/macros/s/AKfycbyMH6_54DgoWayG4kMmJZ3Ix6I0KEl6VgoPwAm8XV1y0zaDtTpi2ISFR0XKQLRtrAiA7g/exec"
+        method="post" id="form_telek">
+        <!-- Seus campos de formulário aqui -->
+        <section>
+          <div class="href-target" id="intro"></div>
+          <h1 class="package-name">Formulário Telek Sistemas</h1>
+          <p>
+            Para entendermos melhor sua demanda e por fim desenvolvermos um fluxo adequado para seu tipo de negócio.
+            Pedimos que preencha as informações abaixo com a maior riqueza de detalhes possível, para que no fim
+            alcancemos com maestria os resultados esperados.
+          </p>
+
+          <div class="nice-form-group">
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome" required />
+          </div>
+
+          <div class="nice-form-group">
+            <label>Empresa</label>
+            <input type="text" placeholder="Google" required />
+          </div>
+
+          <div class="nice-form-group">
+            <label>Site</label>
+            <input type="url" placeholder="www.google.com" value="" required />
+          </div>
+
+        </section>
+
+
+        <!-- Horario de Atendimento -->
+        <section>
+          <div class="nice-form-group" id="atendimento"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-tool">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+            Atendimento
+          </h1>
+          <legend>Marque os dias e os horários de atendimento</legend>
+
+
+
+
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="segunda" />
+            <label for="segunda">Segunda</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="terca" />
+            <label for="terca">Terça</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="quarta" />
+            <label for="quarta">Quarta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="quinta" />
+            <label for="quinta">Quinta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="sexta" />
+            <label for="sexta">Sexta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="sabado" />
+            <label for="sabado">Sabado</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="domingo" />
+            <label for="domingo">Domingo</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <!--  AlMOÇO  -->
+          <div class="nice-form-group">
+            <label for="lgpdCheckbox">O atendimento para no horário do almoço?</label>
+            <input type="checkbox" id="almocoCheckbox" class="switch" />
+
+            <div class="nice-form-group" id="almocoFields" style="display: none;">
+              <label for="horarioAlmoco">Qual horário:</label>
+              <input type="time" class="firstChild" value="12:00" />
+              <input type="time" class="secondChild" value="13:00" />
+            </div>
+
+            <script>
+              const almocoCheckbox = document.getElementById("almocoCheckbox");
+              const almocoFields = document.getElementById("almocoFields");
+
+              almocoCheckbox.addEventListener("change", function () {
+                if (almocoCheckbox.checked) {
+                  almocoFields.style.display = "block";
+                } else {
+                  almocoFields.style.display = "none";
+                }
+              });
+            </script>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <br>
+
+          <legend>Adicione os atendentes e a sua respectiva fila</legend>
+          <br>
+          <legend>Exemplo: aline@telek.com.br Financeiro</legend>
+
+          <div class="nice-form-group atendentes-filas">
+            <ul id="listaAtendentesFilas"></ul>
+          </div>
+
+
+
+
+          <style>
+            /* Estilos para o botão */
+            .custom-button {
+              display: flex;
+              align-items: center;
+              background-color: #3B4CE2;
+              /* Cor de fundo do botão */
+              color: #fff;
+              /* Cor do texto no botão */
+              border: none;
+              /* Remove a borda padrão do botão */
+              padding: 10px 20px;
+              /* Espaçamento interno */
+              border-radius: 5px;
+              /* Borda arredondada */
+              cursor: pointer;
+              /* Cursor de mão no hover */
+              margin-top: 20px;
+              /* Espaçamento vertical entre o botão e a lista */
+            }
+
+
+
+            .feather-external-link {
+              width: 1px;
+              height: 24px;
+            }
+
+            /* Estilizar o botão quando o mouse passa por cima (hover) */
+            .custom-button:hover {
+              background-color: #0056b3;
+              /* Cor de fundo alterada no hover */
+            }
+          </style>
+          </head>
+
+          <button class="custom-button" id="adicionarCampo" onclick="adicionarCampoAtendenteFila()">
+            <svg class="feather feather-external-link">
+            </svg>
+            Adicionar Atendente e Fila
+          </button>
+
+
+
+
+
+
+
+
+
+
+          <script>
+            // Função para adicionar um novo campo de atendente e fila
+            function adicionarCampoAtendenteFila() {
+              const atendentesFilasDiv = document.querySelector('.atendentes-filas');
+              const listaAtendentesFilas = document.getElementById('listaAtendentesFilas');
+
+              // Crie os campos de atendente e fila dinamicamente
+              const atendenteInput = document.createElement('input');
+              atendenteInput.type = "email";
+              atendenteInput.name = "atendente";
+              atendenteInput.placeholder = "Informe o email";
+
+              const filaInput = document.createElement('input');
+              filaInput.type = "text";
+              filaInput.name = "fila";
+              filaInput.placeholder = "Informe a fila";
+
+              const removeButton = document.createElement('button');
+              removeButton.textContent = "X";
+              removeButton.addEventListener('click', function () {
+                listaAtendentesFilas.removeChild(listaItem);
+              });
+
+              const listaItem = document.createElement('li');
+              listaItem.appendChild(atendenteInput);
+              listaItem.appendChild(filaInput);
+              listaItem.appendChild(removeButton);
+              listaAtendentesFilas.appendChild(listaItem);
+            }
+          </script>
+          <details>
+            <summary>
+            </summary>
+          </details>
+
+        </section>
+
+        <!-- Relatorios -->
+        <section>
+          <div class="href-target" id="relatorio"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-layers">
+              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+              <polyline points="2 17 12 22 22 17" />
+              <polyline points="2 12 12 17 22 12" />
+            </svg>
+            Relatórios
+          </h1>
+
+          <div class="nice-form-group">
+            <label for="experiencia"><strong>Quais informações julga necessárias para fins de relatório? O que acha
+                importante?</strong></label>
+            <textarea rows="6" id="atendentes" name="experiencia"></textarea>
+          </div>
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- Inatividade -->
+        <section>
+          <div class="href-target" id="inatividade"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-align-justify">
+              <line x1="21" y1="10" x2="3" y2="10" />
+              <line x1="21" y1="6" x2="3" y2="6" />
+              <line x1="21" y1="14" x2="3" y2="14" />
+              <line x1="21" y1="18" x2="3" y2="18" />
+            </svg>
+            Inatividade
+          </h1>
+
+          <p>Em alguns casos o usuário pode deixar de responder ao bot e a interação fica “parada” esperando por uma
+            resposta. Nesses casos lidamos com a inatividade, via de regra utilizamos um tempo máximo para que tenhamos
+            uma resposta desse cliente. Segue abaixo alguns dos possíveis exemplos:
+
+            <br>Nos casos abaixo, após uma hora, a interação foi finalizada em virtude da inatividade:
+            <br>
+          <p>Em virtude de inatividade sua conversa foi encerrada, mas não se preocupe para continuar falando conosco
+            basta enviar uma nova mensagem.
+            Esperamos que volte logo e tenha um ótimo dia!</p>
+
+          Seu atendimento foi encerrado por inatividade, mas não se preocupe, caso queria recomeçar basta mandar uma
+          mensagem que ficaremos felizes em lhe atender!
+
+          <br><br>Seu atendimento foi finalizado por conta de inatividade. Peço que retorne o contato posteriormente.
+
+          <br><br>Já no caso abaixo, após uma hora encaminhamos uma mensagem para o usuario questionando se ele ainda
+          gostaria de continuar a intereção:
+
+          <br><br><strong>Você ainda está ai?</strong>
+          <br>Responda se desejar continuar nossa conversa.
+          <br>Caso você não responda, o atendimento será encerrado, automaticamente.
+          </p>
+
+          <div class="nice-form-group">
+            <label for="domingo">Tempo de Inatividade</label>
+
+            <input type="time" class="firstChild" value="00:20" />
+          </div>
+
+
+
+          <div class="nice-form-group">
+            <label>Selecione a quantidade de vezes que o cliente será lembrado da inatividade</label>
+            <input type="number" placeholder="0" />
+          </div>
+
+          <div class="nice-form-group">
+            <label><strong>Como gostaria de tratar a inatividade</strong></label>
+            <select id="opcao" onchange="mostrarTextarea()">
+              <option value="" disabled selected>Selecione um valor</option>
+              <option>Atendimento Humano</option>
+              <option>Finalizar</option>
+              <option>Replicar ultimo bloco</option>
+            </select>
+          </div>
+
+          <div class="nice-form-group" id="campoFinalizar" style="display:none;">
+            <label>Se deseja finalizar</label>
+            <label for="experiencia"><strong>Qual seria a mensagem de finalização</strong></label>
+            <textarea rows="3" id="msgFinalizar" name="experiencia"></textarea>
+          </div>
+
+          <script>
+            function mostrarTextarea() {
+              var opcao = document.getElementById("opcao").value;
+              var campoFinalizar = document.getElementById("campoFinalizar");
+
+              if (opcao === "Finalizar") {
+                campoFinalizar.style.display = "block";
+              } else {
+                campoFinalizar.style.display = "none";
+              }
+            }
+          </script>
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- Tratativa Erro -->
+        <section>
+          <div class="href-target" id="tratativa-de-erro"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check-square">
+              <polyline points="9 11 12 14 22 4" />
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+            </svg>
+            Tratativa de Erro
+          </h1>
+
+          <input type="radio" name="opcao" id="opcao1" value="opcao1"> Repetir ultimo bloco<br>
+          <input type="radio" name="opcao" id="opcao2" value="opcao2"> Finalizar<br>
+          <input type="radio" name="opcao" id="opcao3" value="opcao3"> Transbordo<br>
+
+          <div class="nice-form-group" id="listaSuspensa" style="display: none;">
+            <h3>Quantas vezes:</h3>
+            <select>
+              <option value="" disabled selected>Selecione um valor</option>
+              <option value="opcaoA">Uma vez</option>
+              <option value="opcaoB">Duas vezes</option>
+              <option value="opcaoC">Tres Vezes</option>
+            </select>
+          </div>
+
+          <script>
+            const opcao1 = document.getElementById("opcao1");
+            const opcao2 = document.getElementById("opcao2");
+            const opcao3 = document.getElementById("opcao3");
+            const listaSuspensa = document.getElementById("listaSuspensa");
+
+
+            opcao1.addEventListener("change", mostrarListaSuspensa);
+            opcao2.addEventListener("change", mostrarListaSuspensa);
+            opcao3.addEventListener("change", mostrarListaSuspensa);
+
+            function mostrarListaSuspensa() {
+              if (opcao1.checked || opcao2.checked) {
+                listaSuspensa.style.display = "block";
+              } else {
+                listaSuspensa.style.display = "none";
+              }
+            }
+          </script>
+
+
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- NPS -->
+        <section>
+          <div class="href-target" id="pesquisa-de-satisfacao"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg)" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="feather feather-columns">
+              <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18" />
+            </svg>
+            Pesquisa de Satisfação
+          </h1>
+          <p>
+            Depois de todo o trabalho que teve para conquistar um cliente obviamente não quer perdê-lo e uma das etapas
+            para atingir esse objetivo é usar uma pesquisa de satisfação.
+            Basicamente, usar o questionário ajuda sua empresa a entender o grau de satisfação do seu cliente,
+            identifica
+            os pontos fortes e fracos de seus serviços e ainda obtêm insights que podem impulsionar seus negócios.
+
+          </p>
+
+
+
+          <fieldset class="nice-form-group">
+            <legend>Tipos de Pesquisa de satisfação</legend>
+            <div class="nice-form-group">
+              <input type="checkbox" id="geral" />
+              <label for="geral">Geral</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="checkbox" class="individual" />
+              <label for="individual">Individual</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="checkbox" id="outro" />
+              <label for="outro">Outro</label>
+            </div>
+
+
+          </fieldset>
+
+          <fieldset class="nice-form-group">
+            <legend>Segue a baixo as pesquisas</legend>
+            <div class="nice-form-group">
+              <input type="radio" name="0a10" id="0a10" />
+              <label for="0a10">0 a 10</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="0a10" id="0a5" />
+              <label for="0a5">0 a 5</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="0a10" id="excelente" />
+              <label for="excelente">Excelente / Bom / Ruim</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="0a10" id="satisfeito" />
+              <label for="satisfeito">Satisfeito / Insatisfeito</label>
+            </div>
+
+
+          </fieldset>
+
+
+          <fieldset class="nice-form-group">
+            <legend>Perguntar se gostaria de responder pesquisa</legend>
+            <div class="nice-form-group">
+              <input type="radio" name="npssim" id="npssim" />
+              <label for="react">Sim</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="npssim" id="npsnao" />
+              <label for="react">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="nice-form-group">
+            <legend>Pesquisa pós atendimento humano ou qualquer finalização</legend>
+            <div class="nice-form-group">
+              <input type="radio" name="npsdesksim" id="npsdesksim" />
+              <label for="react">Sim</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="npsdesksim" id="npsdesknao" />
+              <label for="react">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="nice-form-group">
+            <legend>Solicitar feedback</legend>
+            <div class="nice-form-group">
+              <input type="radio" name="feedSim" id="feedSim" />
+              <label for="react">Sim</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="feedSim" id="feedNao" />
+              <label for="react">Não</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="feedSim" id="feedSimNao" />
+              <label for="react">Independente do sim/não</label>
+            </div>
+          </fieldset>
+
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- TIPOS DE MENU  -->
+        <section>
+          <div class="href-target" id="menus"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-feather">
+              <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z" />
+              <line x1="16" y1="8" x2="2" y2="22" />
+              <line x1="17.5" y1="15" x2="9" y2="15" />
+            </svg>
+            TIPOS DE MENU
+          </h1>
+          <p>
+            Existem alguns tipos de funções que auxiliam no uso do bot e trazem uma estética mais atual e interativa
+            para
+            o usuário. Essas ferramentas são utilizadas nos menus em qualquer parte do bot a depender da quantidade de
+            opções e limite de caracteres.
+
+            Ao analisarmos as opções possíveis no whatsApp, consideramos três tipos que seguem abaixo:
+          </p>
+
+          <fieldset class="nice-form-group">
+
+            <div class="nice-form-group">
+              <input type="checkbox" id="css" />
+              <label for="css">Menu interativo</label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="checkbox" class="html" />
+              <label for="html">Botão </label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="checkbox" id="js" />
+              <label for="js">Numerais</label>
+
+            </div>
+            <p>
+
+            </p>
+            <div class="nice-form-group">
+              <label for="experiencia"><strong>Mensagem de Finalização</strong></label>
+              <textarea></textarea>
+            </div>
+
+          </fieldset>
+
+          <fieldset class="nice-form-group">
+
+            <div class="nice-form-group">
+              <label for="experiencia"><strong>Publico Alvo</strong></label>
+              <textarea></textarea>
+            </div>
+
+          </fieldset>
+
+
+
+
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- LIMITE DE CARACTERES 
+      <section>
+        <div class="href-target" id="validation"></div>
+        <h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-alert-triangle">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+            <line x1="12" y1="9" x2="12" y2="13" />
+            <line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          LIMITE DE CARACTERES
+        </h1>
+        <p>
+          Fields that have a <code>required</code> attribute can be valid or
+          invalid based on their value. When a user focuses on a invalid field
+          the styling is set back to default.
+        </p>
+
+        <div class="nice-form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Your email" value="this is not a email adress" required />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Your email" value="nice@forms.com" required />
+        </div>
+        <details>
+          <summary>
+            <div class="toggle-code">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-code">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+              Toggle code
+            </div>
+          </summary>
+          <script src="https://gist.github.com/nielsVoogt/75ebf8c12ca420eb2089312a931ab4cf.js"></script>
+        </details>
+      </section>
+      -->
+
+        <!-- partial 
+      <section>
+        <div class="href-target" id="date"></div>
+        <h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-calendar">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+          Atendimento
+        </h1>
+        
+        <p>
+          Date fields show icons by default. The <code>month</code>,
+          <code>week</code> and <code>date</code> fields have a fixed min
+          width set at 14em. <code>time</code> is set at 7em.
+        </p>
+
+        <fieldset class="nice-form-group">
+          <legend>Marque os dias de atendimento e os horarios de atendimento</legend>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="segunda" />
+            <label for="segunda">Segunda</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="terca" />
+            <label for="terca">Terça</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="quarta" />
+            <label for="quarta">Quarta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="quinta" />
+            <label for="quinta">Quinta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="sexta" />
+            <label for="sexta">Sexta</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="sabado" />
+            <label for="sabado">Sabado</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+          <br>
+          <div class="nice-form-group diaAtendimento">
+            <input type="checkbox" class="html" name="domingo" />
+            <label for="domingo">Domingo</label>
+            <input type="time" class="firstChild" value="08:00" />
+            <input type="time" class="secondChild" value="18:30" />
+          </div>
+        </fieldset>
+
+        <div class="nice-form-group">
+          <label for="check-3">Trabalham no feriado?</label>
+          <input type="checkbox" id="checkFeriado" class="switch" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Week</label>
+          <input type="week" value="2017-W01" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Date</label>
+          <input type="date" value="2018-07-22" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Time</label>
+          <input type="time" value="13:30" />
+        </div>
+
+        <details>
+          <summary>
+            <div class="toggle-code">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-code">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+              Toggle code
+            </div>
+          </summary>
+          <script src="https://gist.github.com/nielsVoogt/2ae279af287e520f545285b0d7c45828.js"></script>
+        </details>
+      </section>
+    -->
+
+        <!-- partial 
+      <section>
+        <div class="href-target" id="other"></div>
+        <h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-server">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+            <line x1="6" y1="6" x2="6.01" y2="6" />
+            <line x1="6" y1="18" x2="6.01" y2="18" />
+          </svg>
+          Other input types
+        </h1>
+
+        <div class="nice-form-group">
+          <label>Textarea</label>
+          <textarea rows="5" placeholder="Your message"></textarea>
+        </div>
+
+        <div class="nice-form-group">
+          <label>Select</label>
+          <select>
+            <option>Please select a value</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+        </div>
+
+        <div class="nice-form-group">
+          <label>File upload</label>
+          <input type="file" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Range slider</label>
+          <input type="range" min="0" max="15" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Number</label>
+          <input type="number" placeholder="1234" />
+        </div>
+
+        <div class="nice-form-group">
+          <label>Color</label>
+          <input type="color" />
+        </div>
+
+        <details>
+          <summary>
+            <div class="toggle-code">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-code">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+              Toggle code
+            </div>
+          </summary>
+          <script src="https://gist.github.com/nielsVoogt/f0480b1a2d0deda02138d61ec5c9f4d0.js"></script>
+        </details>
+      </section>-->
+
+
+        <!-- TIPOS DE LINGUAGEM -->
+        <section>
+          <div class="href-target" id="tipos-de-linguagem"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-power">
+              <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
+              <line x1="12" y1="2" x2="12" y2="12" />
+            </svg>
+            TIPOS DE LINGUAGEM
+          </h1>
+          <div class="nice-form-group" id="reset">
+            <label for="apiQueriesInput">Qual o público-alvo da sua empresa? (idade, sexo, grau de formação, etc).
+            </label>
+            <textarea> </textarea>
+          </div>
+
+          <fieldset class="nice-form-group" id="reset">
+
+            <legend>Gostaria de utilizar qual tipo de linguagem nos textos?</legend>
+            <div class="nice-form-group">
+              <input type="radio" name="radio" id="Formal" />
+              <label for="react">Formal </label>
+            </div>
+
+            <div class="nice-form-group">
+              <input type="radio" name="radio" id="Informal" />
+              <label for="react">Informal</label>
+            </div>
+            <p>
+
+            </p>
+            <div class="nice-form-group">
+              <label for="check-3">Gostaria de utilizar emojis? <p>Exemplo: A Solara agradece o contato, até breve
+                  👋🏾</p></label>
+              <input type="checkbox" id="emoji" class="switch" />
+            </div>
+
+            <div class="nice-form-group">
+              <label for="nameAssistant">Tem um nome de assistente virtual?</label>
+              <input type="checkbox" id="nameAssistant" class="switch" />
+            </div>
+
+            <div class="nice-form-group" id="nameAssistantFields" style="display: none;">
+              <label for="assistantNameInput">Nome do assistente virtual:</label>
+              <input type="text" placeholder="Magalu" value="" id="assistantNameInput">
+
+            </div>
+
+            <script>
+              const nameAssistantCheckbox = document.getElementById("nameAssistant");
+              const nameAssistantFields = document.getElementById("nameAssistantFields");
+
+              nameAssistantCheckbox.addEventListener("change", function () {
+                if (nameAssistantCheckbox.checked) {
+                  nameAssistantFields.style.display = "block";
+                } else {
+                  nameAssistantFields.style.display = "none";
+                  document.getElementById("assistantNameInput").value = ""; // Limpar o campo de entrada
+                }
+              });
+            </script>
+
+
+
+          </fieldset>
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+
+        </section>
+
+
+
+        <!-- LGPD -->
+        <section>
+          <div class="href-target" id="lgpd"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-sliders">
+              <line x1="4" y1="21" x2="4" y2="14" />
+              <line x1="4" y1="10" x2="4" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="12" />
+              <line x1="12" y1="8" x2="12" y2="3" />
+              <line x1="20" y1="21" x2="20" y2="16" />
+              <line x1="20" y1="12" x2="20" y2="3" />
+              <line x1="1" y1="14" x2="7" y2="14" />
+              <line x1="9" y1="8" x2="15" y2="8" />
+              <line x1="17" y1="16" x2="23" y2="16" />
+            </svg>
+            Lei Geral de Proteção de Dados Pessoais (LGPD)
+          </h1>
+          <p>A LGPD é uma lei que regula o tratamento de dados pessoais, inclusive nos meios digitais, por pessoas
+            físicas
+            ou jurídicas, públicas ou privadas12. A lei tem o objetivo de proteger os direitos fundamentais de liberdade
+            e
+            de privacidade e o livre desenvolvimento da personalidade da pessoa natural12. A lei foi promulgada em 2018
+            e
+            entrou em vigor em 2020.
+          </p>
+
+          <div class="nice-form-group">
+            <label for="lgpdCheckbox">LGPD</label>
+            <input type="checkbox" id="lgpdCheckbox" class="switch" />
+
+            <div class="nice-form-group" id="lgpdFields" style="display: none;">
+              <label for="siteInput">Digite o site:</label>
+              <input type="text" id="siteInput">
+              <p></p>
+              <label for="siteInput">Ou insira um arquivo</label>
+              <input type="file" id="fileInput">
+            </div>
+
+            <script>
+              const lgpdCheckbox = document.getElementById("lgpdCheckbox");
+              const lgpdFields = document.getElementById("lgpdFields");
+
+              lgpdCheckbox.addEventListener("change", function () {
+                if (lgpdCheckbox.checked) {
+                  lgpdFields.style.display = "block";
+                } else {
+                  lgpdFields.style.display = "none";
+                }
+              });
+            </script>
+          </div>
+
+          <details>
+            <summary>
+            </summary>
+          </details>
+        </section>
+
+
+        <!-- API -->
+        <section>
+          <div class="href-target" id="integracao"></div>
+          <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-github">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            INTEGRAÇÃO
+          </h1>
+          <p>
+            O bot terá alguma integração? Já possui documentação da API ou dados da API?
+          </p>
+
+          <div class="nice-form-group">
+            <label for="api">API</label>
+            <input type="checkbox" id="api" class="switch" />
+          </div>
+
+          <div class="nice-form-group" id="apiFields" style="display: none;">
+            <label>link da documentação</label>
+            <input type="url" placeholder="https://swagger.io/tools/swagger-ui/" value="" />
+            <p>
+            </p>
+
+
+
+
+            <label for="apiQueriesInput">Quais informações serão consultadas na API? Qual informação você gostaria de
+              ter
+              ou mandar para essa plataforma:</label>
+            <textarea id="apiQueriesInput"> </textarea>
+          </div>
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script>
+
+
+            const apiCheckbox = document.getElementById("api");
+            const apiFields = document.getElementById("apiFields");
+
+            apiCheckbox.addEventListener("change", function () {
+              if (apiCheckbox.checked) {
+                apiFields.style.display = "block";
+              } else {
+                apiFields.style.display = "none";
+              }
+            });
+          </script>
+
+          <details>
+            <summary>
+               <!--CANAIS DE ATENDIMENTO-->
+
+          
+          
+          <div class="nice-form-group">
+            <p>Em quais canais o chatbot sera implementado:</p>
+            <label for="canais">whatsApp</label>
+            <i class="fab fa-whatsapp" style="color: #000000; font-size: 24px; vertical-align: middle;"> </i>
+            <input type="checkbox" id="whatsCheckbox" class="switch" style="vertical-align: middle;" />
+          </div>
+
+          <div class="nice-form-group">
+            <label for="canais">Instagram</label>
+            <i class="fa-brands fa-instagram" style="color: #000000; font-size: 24px; vertical-align: middle;"></i>
+            <input type="checkbox" id="whatsCheckbox" class="switch" style="vertical-align: middle;" />
+          </div>
+
+          <div class="nice-form-group">
+            <label for="canais">Facebook Messenger</label>
+            <i class="fa-brands fa-facebook-messenger"
+              style="color: #000000; font-size: 24px; vertical-align: middle;"></i>
+            <input type="checkbox" id="whatsCheckbox" class="switch" style="vertical-align: middle;" />
+          </div>
+
+          <div class="nice-form-group">
+            <label for="canais">Blip Chat</label>
+            <span>comumente usado em sites</span>
+            <br>
+
+            <i class="fa-solid fa-comment" style="color: #000000; font-size: 24px; vertical-align: middle;"></i>
+            <input type="checkbox" id="whatsCheckbox" class="switch" style="vertical-align: middle;" />
+
+          </div>
+            </summary>
+          </details>
+        </section>
+
+
+
+        <div class="nice-form-group">
+          <input type="submit" value="Enviar">
+        </div>
+
+      </form>
+
+
+
+
+      <footer>Feito por Telek Sistemas</footer>
+    </main>
+  </div>
+  <!-- partial -->
+
+</body>
+
+</html>
